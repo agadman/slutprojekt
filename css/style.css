@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter+Brush&family=EB+Garamond&family=Montserrat+Alternates:ital,wght@1,500&family=Open+Sans:wght@300&display=swap');
+
+/* ALL PAGES */
+
+/* Include margin/padding in sizes */
+* {
+  box-sizing: border-box;
+  font-family: EB Garamond;
+}
+
+/* Body */
+body {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 0px;
+  box-shadow: 0 0 15px 5px rgba(92, 125, 165, 0.8);
+
+}
+
+/* Header & title */
+header {
+    padding: 20px;   
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    color: #333;
+    }
+  
+  /* Header font-size and font-family */
+  header h1 {
+    font-size: 280%; 
+    font-family: Impact;
+  }
