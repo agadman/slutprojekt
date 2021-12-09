@@ -30,3 +30,21 @@ header {
     font-size: 280%; 
     font-family: Impact;
   }
+
+  /* Top navigation */
+.topnav {
+    background-color: #333;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Current active site on nav bar */
+  .active {
+    background-color: rgb(133, 132, 132);
+  }
