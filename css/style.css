@@ -2,7 +2,7 @@
 
 /* ALL PAGES */
 
-/* Include margin/padding in sizes */
+/* Include margin/padding in sizes and choosing font-family */
 * {
   box-sizing: border-box;
   font-family: EB Garamond;
@@ -25,7 +25,6 @@ header {
     color: #333;
     }
   
-  /* Header font-size and font-family */
   header h1 {
     font-size: 280%; 
     font-family: Impact;
@@ -37,14 +36,94 @@ header {
     top: 0;
     overflow: hidden;
   }
+
+  .topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;    
+  }
   
-  a:link {
+  /* Center elements in topnav */
+  #navbar {
+    text-align: center;
+  }
+  
+  /* Hover styling on topnav */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Current active site on nav bar */
+  .active {
+    background-color: rgb(133, 132, 132);
+  }
+  
+  /* Style main */
+main {  
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  /* Sidebar */
+  aside {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 229, 229);
+    padding: 20px;
+  }
+  
+  /* text decoration on button links */
+  button a {
+    color: #333;
+  }
+  
+  button a:link {
     text-decoration: none;
     color: #333;
     padding: 10px;
   }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  /* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+    background-color: rgb(231, 229, 229);
+    color: #333;
+    margin-top: 3px;    
+  }
   
-  /* Current active site on nav bar */
-  .active {
-    background-color: rgb(133, 132, 132);
+  /* ****** START PAGE ******* */
+
+article {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Image style properties */
+  .indexImg {
+    width:100%;
+    max-width:600px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .sidebar_img {
+    width:100%;
+    max-width:600px;
+    border-radius: 50%;
+    margin-top: 20px;
   }
