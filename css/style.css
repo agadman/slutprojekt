@@ -107,6 +107,14 @@ footer {
   
   /* ****** START PAGE ******* */
 
+.notification {
+    background:rgb(247, 95, 7);
+    color: white;
+    padding:1px;
+    text-align:center;
+    position: relative;
+  }
+
 article {
     flex: 70%;
     background-color: white;
