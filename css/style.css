@@ -98,12 +98,20 @@ main {
   /* Footer */
 footer {
     display: flex;
-    justify-content: space-between;
     padding: 20px;  
     background-color: rgb(231, 229, 229);
     color: #333;
-    margin-top: 3px;    
+    margin-top: 5px;
   }
+
+  footer div {
+      flex: 50%
+  }
+
+  footer div p {
+      text-align: center;
+  }
+
   
   /* ****** START PAGE ******* */
 
