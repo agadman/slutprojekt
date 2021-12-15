@@ -206,4 +206,10 @@ article {
     footer div {
         margin: 10px auto;
     }
+    
+    .indexImg,
+    .sidebar_img {
+        width: 100%;
+        border-radius: 0;
+    }
   }
