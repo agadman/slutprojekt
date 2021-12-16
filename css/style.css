@@ -252,10 +252,13 @@ article {
         margin: 10px auto;
     }
     
-    .indexImg,
-    .sidebar_img {
+    .indexImg {
         width: 100%;
         border-radius: 0;
+    }
+
+    .sidebar_img {
+      display: none;
     }
 
     /* Form */
