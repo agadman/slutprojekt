@@ -45,7 +45,7 @@ header {
     font-size: 17px;
     position: relative;    
   }
-  
+
   /* Center elements in topnav */
   #navbar {
     text-align: center;
@@ -91,7 +91,7 @@ header {
 
   button {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     font-size: 16px;
     transition-duration: 0.5s;
   }
@@ -249,7 +249,7 @@ article {
 
   /********* TASTING PAGE ************/
 
-.mySlides {display: none;}
+.slide_show {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -352,4 +352,5 @@ img {vertical-align: middle;}
     .products {
       flex-direction: column;
     }
+
   }
