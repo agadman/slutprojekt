@@ -160,7 +160,9 @@ footer {
     padding:1px;
     text-align:center;
     position: relative;
+    display: none;
   }
+
 
 article {
     flex: 70%;
