@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $("div.notification").fadeIn(1000);
+    $("div.notification").fadeIn(2000);
 })
