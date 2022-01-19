@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Icon library - social media-- hamburger menu -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Örnsbergs olja och delikatesser - Produkter</title>
+    <title>Örnsbergs olja och delikatesser - Butik</title>
 </head>
 <body>
+
     <header>
         <h1>Örnsbergs olja och delikatesser</h1>
         <img src="img/flag-italy.png" alt="Italiensk flagga">
@@ -25,7 +27,7 @@
     </nav>
 
     <script src="js/menu.js"></script>
-    
+
     <main>
         <aside>
             <button type="button"><a href="products.html">Produkter</a></button>
@@ -34,24 +36,25 @@
             <img class="sidebar_img" src="img/aperitif.jpg" alt="Ost">
         </aside>
 
-        <article class="products">
-            <section class="product_sections">
-                <h2>Oljor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero alias praesentium blanditiis non dolorum consectetur inventore sunt velit aperiam nemo, eos sit nobis id ex ut accusamus, error quam autem.</p>
-                <img src="img/olive-oil-1.jpg" alt="Olive oils">
-            </section>
-            <section class="product_sections">
-                <h2>Delikatesser</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi, aperiam autem reiciendis a expedita culpa vitae quo et qui consequatur nulla laudantium quos ratione nobis explicabo quae. Placeat, amet!</p>
-                <img src="img/antipasto.jpg" alt="Antipasto">
-            </section>
-            <section class="product_sections">
-                <h2>Torrvaror</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro, ad magnam, sit facere suscipit reprehenderit totam obcaecati impedit temporibus explicabo veritatis sapiente quod error unde rerum minus iste est.</p>
-                <img src="img/pasta.jpg" alt="Pasta">
-            </section>
-        </article>
+        <article>
+            <h2>Butik</h2>
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolorum sint officiis nostrum, error voluptatibus asperiores cum quaerat veniam odio dolor, quibusdam repudiandae deserunt dicta voluptatum est mollitia ducimus. Velit!
+            </p>
+
+            <img id="shopImg" src="img/shop2.jpg" alt="Shop" width="300" height="200">
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+             </div>
+         
+            </article>
     </main>
+    <script src="js/shop.js"></script>
 
     <footer>
         <div>
@@ -63,6 +66,7 @@
         </div>
 
         <div>
+            <!-- Facebook och Instagram ikoner som i detta fall inte länkar till något -->
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-instagram"></a>
@@ -74,7 +78,8 @@
                 Söndag 12.00 - 16.00<br>
             </p>
         </div>
+
     </footer>
-    
+
 </body>
 </html>
