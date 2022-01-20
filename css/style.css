@@ -60,6 +60,7 @@ header {
   /* Current active site on nav bar */
   .active {
     background-color: rgb(133, 132, 132);
+    color: white;
   }
 
   /* Hide the link that should open and close the topnav on small screens */

@@ -30,9 +30,16 @@
 
     <main>
         <aside>
-            <button type="button"><a href="products.html">Produkter</a></button>
-            <button type="button"><a href="shop.html">Butik</a></button>
-            <button type="button"><a href="tasting.html">Provning</a></button>
+            <form method="get" action="products.html">
+                <button type="submit">Produkter</button>
+            </form>
+            <form method="get" action="shop.html">
+                <button class="active" type="submit">Butik</button>
+            </form>
+            <form method="get" action="tasting.html">
+                <button type="submit">Provning</button>
+            </form>
+
             <img class="sidebar_img" src="img/aperitif.jpg" alt="Ost">
         </aside>
 
