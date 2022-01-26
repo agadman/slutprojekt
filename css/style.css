@@ -482,4 +482,8 @@ img {vertical-align: middle;}
     display: block;
     text-align: center;
   }
+
+  #shopImg {
+    width: 100%;
+  }
 }
