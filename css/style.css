@@ -2,7 +2,7 @@
 
 /* ALL PAGES */
 
-/* Include margin/padding in sizes and choosing font-family */
+/* Include margin/padding in  all sizes*/
 * {
   box-sizing: border-box;
   font-family: EB Garamond;
@@ -20,16 +20,16 @@ header {
     text-align: center;
     background-color: rgb(231, 229, 229);
     color: #333;
-    }
+  }
   
   header h1 {
     font-size: 280%; 
     font-family: Impact;
-    }
+  }
 
 #navbar {
     text-align: center;
-    }
+  }
 
 .topnav {
     background-color: #333;
@@ -57,15 +57,16 @@ header {
   }
 
   /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+  .topnav .icon {
   display: none;
-}
+  }
 
-main {  
-  display: flex;
-  flex-wrap: wrap;
-  color: black;
-}
+  main {  
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
   aside {
     flex: 20%;
     display: flex;
@@ -74,14 +75,12 @@ main {
     padding: 20px;
   }
 
-
-article {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
+  article {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
   
-  /* text decoration on button links */
   button a {
     color: #333;
   }
@@ -100,15 +99,15 @@ article {
   }
 
   button:hover {
-      background-color: rgb(133, 132, 132);
-      color: white;
+    background-color: rgb(133, 132, 132);
+    color: white;
   }
 
   button:active {
     background-color: rgb(133, 132, 132);
   }
 
-footer {
+  footer {
     display: flex;
     padding: 20px;  
     background-color: rgb(231, 229, 229);
@@ -151,8 +150,8 @@ footer {
   }
 
   footer div a {
-      margin-left: auto;
-      margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* ****** START PAGE ******* */
@@ -338,13 +337,19 @@ footer {
 
   /********* TASTING PAGE ************/
 
-.slide_show {display: none;}
-img {vertical-align: middle;}
+.slide_show {
+  display: none;
+}
+
+/*img {
+  vertical-align: middle;
+}*/
 
 /* Slideshow container */
 .slideshow {
   max-width: 700px;
   position: relative;
+  text-align: center;
 }
 
 /* Caption text */
