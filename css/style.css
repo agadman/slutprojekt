@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter+Brush&family=EB+Garamond&family=Montserrat+Alternates:ital,wght@1,500&family=Open+Sans:wght@300&display=swap');
 
-/* ALL PAGES */
+/********* ALL PAGES **********/
 
 /* Include margin/padding in  all sizes*/
 * {
@@ -107,6 +107,12 @@ header {
     background-color: rgb(133, 132, 132);
   }
 
+  .sidebar_img {
+    width:100%;
+    max-width:600px;
+    margin-top: 20px;
+  }
+
   footer {
     display: flex;
     padding: 20px;  
@@ -154,7 +160,7 @@ header {
     margin-right: auto;
   }
   
-  /* ****** START PAGE ******* */
+  /******** START PAGE *********/
 
 .notification {
     background:rgb(247, 95, 7);
@@ -169,7 +175,6 @@ header {
     font-size: 1.25em;
   }
  
-  /* Image style properties */
   .indexImg {
     width:100%;
     max-width:600px;
@@ -177,13 +182,7 @@ header {
     margin-top: 20px;
   }
   
-  .sidebar_img {
-    width:100%;
-    max-width:600px;
-    margin-top: 20px;
-  }
-
-  /* ***** CONTACT PAGE ****** */
+  /******* CONTACT PAGE ********/
 
   input[type=text], [type=tel], [type=email], textarea {
     width: 100%;
